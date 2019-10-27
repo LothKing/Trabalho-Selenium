@@ -1,0 +1,219 @@
+{
+  "id": "0be0956c-392f-4dbe-8320-48c4cb572c25",
+  "version": "2.0",
+  "name": "Trabalho 3 V2",
+  "url": "http://formsus.datasus.gov.br",
+  "tests": [{
+    "id": "6c630a48-bde4-48f5-8a7a-f50f1fa488ca",
+    "name": "Trabalho 3",
+    "commands": [{
+      "id": "e5fca5a6-dec5-4727-be68-71c9c14db87a",
+      "comment": "",
+      "command": "open",
+      "target": "/site/formulario.php?id_aplicacao=28166",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3527a09f-b8c0-4948-9b2a-5fe6d1998d5b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1022x726",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c5ea711-2257-495b-807e-e83150ec396d",
+      "comment": "",
+      "command": "click",
+      "target": "id=campo984776[]",
+      "targets": [
+        ["id=campo984776[]", "id"],
+        ["name=campo984776[]", "name"],
+        ["css=#campo984776\\[\\]", "css:finder"],
+        ["xpath=//select[@id='campo984776[]']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44b3304a-87bc-40dc-9063-f01d6721362e",
+      "comment": "",
+      "command": "select",
+      "target": "id=campo984776[]",
+      "targets": [],
+      "value": "label=10ª RS CASCAVEL"
+    }, {
+      "id": "bd8389fb-8e13-42e4-8737-00e2934607d8",
+      "comment": "",
+      "command": "click",
+      "target": "id=campo984776[]",
+      "targets": [
+        ["id=campo984776[]", "id"],
+        ["name=campo984776[]", "name"],
+        ["css=#campo984776\\[\\]", "css:finder"],
+        ["xpath=//select[@id='campo984776[]']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "400ad612-ffda-4da3-ae26-e4cedbd4e741",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td > .fieldset_borda tr:nth-child(2) > .left_space",
+      "targets": [
+        ["css=tr:nth-child(2) > td > .fieldset_borda tr:nth-child(2) > .left_space", "css:finder"],
+        ["xpath=//tr[2]/td/fieldset/table/tbody/tr[2]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09f2950d-0d9d-497c-a211-3db77dcd9104",
+      "comment": "",
+      "command": "click",
+      "target": "id=campo987144[]",
+      "targets": [
+        ["id=campo987144[]", "id"],
+        ["name=campo987144[]", "name"],
+        ["css=#campo987144\\[\\]", "css:finder"],
+        ["xpath=//select[@id='campo987144[]']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/fieldset/table/tbody/tr[2]/td/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca16bc34-7cc1-43ea-850d-8e3905da9b99",
+      "comment": "",
+      "command": "select",
+      "target": "id=campo987144[]",
+      "targets": [],
+      "value": "label=Alvorada do Sul"
+    }, {
+      "id": "2dd70338-8dc8-4246-94d5-88916902a1fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=campo987144[]",
+      "targets": [
+        ["id=campo987144[]", "id"],
+        ["name=campo987144[]", "name"],
+        ["css=#campo987144\\[\\]", "css:finder"],
+        ["xpath=//select[@id='campo987144[]']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/fieldset/table/tbody/tr[2]/td/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9f475ae-830a-47c3-80a5-b6a5072d3507",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(7) img",
+      "targets": [
+        ["css=tr:nth-child(7) img", "css:finder"],
+        ["xpath=//img[@alt='Gravar']", "xpath:img"],
+        ["xpath=//tr[7]/td/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab9b6fe1-dbe3-42cd-bea9-fbfd79aefbfa",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Preenchimento Obrigatório: Endereço de Residência do Paciente: !",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb2d51d9-7720-4b01-9d2e-98909c9f7bbd",
+      "comment": "",
+      "command": "click",
+      "target": "id=campo987146[]",
+      "targets": [
+        ["id=campo987146[]", "id"],
+        ["name=campo987146[]", "name"],
+        ["css=#campo987146\\[\\]", "css:finder"],
+        ["xpath=//input[@id='campo987146[]']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "988c501c-8562-433d-867f-e0bd2d0c3dae",
+      "comment": "",
+      "command": "type",
+      "target": "id=campo987146[]",
+      "targets": [
+        ["id=campo987146[]", "id"],
+        ["name=campo987146[]", "name"],
+        ["css=#campo987146\\[\\]", "css:finder"],
+        ["xpath=//input[@id='campo987146[]']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "GBFDBDFVBFD"
+    }, {
+      "id": "62467733-3df1-48b7-abe0-fc5f3bc846b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=campo987151[]",
+      "targets": [
+        ["id=campo987151[]", "id"],
+        ["name=campo987151[]", "name"],
+        ["css=#campo987151\\[\\]", "css:finder"],
+        ["xpath=//input[@id='campo987151[]']", "xpath:attributes"],
+        ["xpath=//tr[6]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c3f20f5-a2f6-4083-bde5-08766be00c83",
+      "comment": "",
+      "command": "type",
+      "target": "id=campo987151[]",
+      "targets": [
+        ["id=campo987151[]", "id"],
+        ["name=campo987151[]", "name"],
+        ["css=#campo987151\\[\\]", "css:finder"],
+        ["xpath=//input[@id='campo987151[]']", "xpath:attributes"],
+        ["xpath=//tr[6]/td/input", "xpath:position"]
+      ],
+      "value": "CVXCVXCVXCVX"
+    }, {
+      "id": "1b9ca07f-4d63-4621-ac4e-e55fa7298ee8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.font_botao",
+      "targets": [
+        ["css=.font_botao", "css:finder"],
+        ["xpath=//a/font", "xpath:position"],
+        ["xpath=//font[contains(.,'Gravar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf494b84-fe69-4a4b-b03c-28ae1c297cd9",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Preenchimento Obrigatório: Endereço de Residência do Paciente: !",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "143d8436-2116-49b7-a202-cae8ee3b6941",
+      "comment": "",
+      "command": "click",
+      "target": "id=campo987149[]",
+      "targets": [
+        ["id=campo987149[]", "id"],
+        ["name=campo987149[]", "name"],
+        ["css=#campo987149\\[\\]", "css:finder"],
+        ["xpath=//input[@id='campo987149[]']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/fieldset/table/tbody/tr[4]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca998e2a-843e-464a-b811-927497f2dd5a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b2e61561-2090-4090-9836-34af55a0811f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6c630a48-bde4-48f5-8a7a-f50f1fa488ca"]
+  }],
+  "urls": ["http://formsus.datasus.gov.br/"],
+  "plugins": []
+}
